@@ -43,8 +43,13 @@ func main() {
 		"January",
 		"February",
 		"march",
+		"April",
 	}
 
-	fmt.Printf("Len: %b, Cap: %b, %p \n", len(months), cap(months), months)
+	fmt.Printf("Len: %v, Cap: %v, %p \n", len(months), cap(months), months)
+
+	months = append(months, "june")
+
+	fmt.Printf("Len: %v, Cap: %v, %p \n", len(months), cap(months), months)
 
 }

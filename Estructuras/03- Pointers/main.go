@@ -41,6 +41,7 @@ func main() {
 
 	var b int = 10
 
+	// & Get reference where is save the variable
 	Increase(&b)
 
 	fmt.Println("the number is", b)
